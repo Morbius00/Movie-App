@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MovieList from './pages/MovieList';
 import FavoriteMovies from './pages/FavoriteMovies';
+import './index.css';
 
 const App = () => {
   return (

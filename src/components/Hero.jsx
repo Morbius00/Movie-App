@@ -1,6 +1,6 @@
 import React from "react";
 import RedButton from "../common/Button";
-import Background from "./backgroungN.png";
+import Background from "./assets/backgroungN.png";
 
 const heroBackground = {
   backgroundImage: `url(${Background})`

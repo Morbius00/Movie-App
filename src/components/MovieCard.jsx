@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleFavorite } from "../redux/moviesSlice";
 import RedButton from "../common/Button";
+import MoviePoster from "./assets/movieposter.jpg";
 
 const MovieCard = ({ movie }) => {
   const dispatch = useDispatch();
@@ -111,7 +112,7 @@ const MovieCard = ({ movie }) => {
           <div onClick={() => window.open(movie.imd_bUrl, "_blank")}>
             <img
               className="absolute inset-0 transform w-full -translate-y-4 rounded-xl"
-              src="https://rukminim2.flixcart.com/image/850/1000/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=20&crop=false"
+              src={MoviePoster}
               alt={movie.movie}
             />
           </div>

@@ -1,7 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+`Moviefix` is a sleek and intuitive web application designed for movie enthusiasts to discover and explore a wide range of films. With an attractive, responsive design powered by Tailwind CSS, users can browse through a curated selection of movies, view detailed information including ratings and trailers, and add their favorite films to a personalized list. The app seamlessly integrates with an external API to fetch the latest movie data, ensuring a constantly updated catalog. Whether you're looking for the latest blockbuster or a classic favorite, Movie Explorer offers a visually engaging and user-friendly experience to satisfy all your movie-watching needs.
+
+![Screenshot from 2024-05-26 21-03-35](https://github.com/Morbius00/Movie-App/assets/102956488/f91db34e-4392-4276-9f6b-9057271e8a37)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:

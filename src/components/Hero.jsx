@@ -14,7 +14,7 @@ function App() {
             <div className="md:text-5xl text-2xl font-bold mb-4">
               Unlimited movies, TV shows and more
             </div>
-            <p className="text-lg mb-8">Watch anywhere. Any anytime.</p>
+            <p className="text-xl mb-8">Watch anywhere. Any anytime.</p>
             <p className="text-base mb-6">
               Ready to watch? Enter your email to create or restart your
               membership.

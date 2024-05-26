@@ -1,5 +1,0 @@
- <img
-              className="absolute inset-0 transform w-full -translate-y-4"
-              src={movie.imdb_url}
-              alt="hello"
-            ></img>

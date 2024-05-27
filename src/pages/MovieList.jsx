@@ -15,11 +15,11 @@ const MovieList = () => {
   }, [status, dispatch]);
 
   if (status === "loading") {
-    return <div>Loading...</div>;
+    return <div className="flex items-center justify-center text-2xl text-white font-semibold text-center mt-20">Loading...</div>;
   }
 
   if (status === "failed") {
-    return <div>Error fetching movies.</div>;
+    return <div className="flex items-center justify-center text-2xl text-white font-semibold text-center mt-20">Error fetching movies.</div>;
   }
 
   return (
